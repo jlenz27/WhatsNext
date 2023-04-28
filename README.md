@@ -6,6 +6,7 @@ By John Lenz
 A Website that allows a user to login and store multiple places that they want to visit and check them off as they go. It uses google maps api to allow the user to see what is close to them at a given time.
 
 ### `Time Log`
+#### Friday, 28 April 2023
 * 8am: set up project, lay out key areas of research
 * 9am: Still researching ways to add API's
 * 10am: Watching different tutorials on using google api
@@ -16,7 +17,27 @@ A Website that allows a user to login and store multiple places that they want t
 
 
 
+## List the absolute minimum features the project requires to meet this purpose or goal:
+* Working Map
+* Login ability
+* Firebase
 
+## What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+*React
+*Google API
+*Rapid API
+*Yelp Fusion API
+*Material UI
+
+
+## If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+*Adapt to mobile with react native
+*styling
+
+## What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+*React Native
+
+Is there anything else you'd like your instructor to know?
 
 
 
