@@ -1,18 +1,25 @@
-# Getting Started with Create React App
+# Whats Next
+By John Lenz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+A Website that allows a user to login and store multiple places that they want to visit and check them off as they go. It uses google maps api to allow the user to see what is close to them at a given time.
 
-In the project directory, you can run:
+### `Time Log`
+* 8am: set up project, lay out key areas of research
+* 9am: Still researching ways to add API's
+* 10am: Watching different tutorials on using google api
+* 12pm: Finsished up tutorials on google API's
+* 1pm: Working on setting up FireBase with React
+* 2pm: Initial project setup
+* 3:30pm: Have Google API Working in project
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
+
+
+
 
 ### `npm test`
 
