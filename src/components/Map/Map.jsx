@@ -6,11 +6,10 @@ import Rating from '@material-ui/lab'
 
 import useStyles from './styles.js';
 
-const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherData }) => {
+const Map = ({ coordinates, setCoordinates, setBounds }) => {
     const isMobile = useMediaQuery('(min-width:600px)');
     const classes = useStyles();
 
-    const coordinates = {lat: 0, lng: 0};
 
         return (
             <div className={classes.mapContainer}>
@@ -21,7 +20,10 @@ const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherDat
                 defaultZoom={14}
                 margin={[50, 50, 50, 50]}
                 options={''}
-                onChange={''}
+                onChange={(e) => {
+                    setCoordinates ({ lat: e.center.lat, lng: e.center.lng});
+                    setBounds ({ne: e.marginBounds.ne, sw: e.marginBounds.sw});
+                }}
                 onChildClick={''}
               >
                 </GoogleMapReact>
